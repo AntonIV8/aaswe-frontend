@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-aaswe-cat-e",
+  "editForm": "i-i-s-aaswe-cat-e",
+  "external": false,
+  "caption": "Cat",
+  "name": "IISaasweCatL",
+  "className": "CatL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-aaswe-cat",
+      "modelProjection": "CatL"
+    }
+  ]
+}

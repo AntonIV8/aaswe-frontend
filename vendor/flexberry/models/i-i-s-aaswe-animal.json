@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISaasweAnimal",
+  "modelName": "i-i-s-aaswe-animal",
+  "className": "Animal",
+  "nameSpace": "IIS.aaswe",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "weight",
+      "type": "decimal",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "AnimalE",
+      "modelName": "i-i-s-aaswe-animal",
+      "attrs": [
+        {
+          "name": "weight",
+          "caption": "Weight",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "AnimalL",
+      "modelName": "i-i-s-aaswe-animal",
+      "attrs": [
+        {
+          "name": "weight",
+          "caption": "Weight",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
